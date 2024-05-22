@@ -22,7 +22,7 @@ class Quiz:
     def getQuestion(self):
         return self.questions[self.questionIndex]
     
-    def displayQuestion(self):
+    def displayQuestion(self): 
         question = self.getQuestion()
         print(f'soru {self.questionIndex+1} : {question.text}')
 
